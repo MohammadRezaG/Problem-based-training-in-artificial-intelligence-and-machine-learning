@@ -1,0 +1,11 @@
+def cxml(key,arg):
+    print( "\t<{}>{}<{}>".format(key,str(arg),"/"+key))
+username = input()
+password = input()
+name,age,bmi=input().split()
+print("<user>")
+cxml("combo","{}:{}".format(username,password))
+cxml("name",name)
+cxml("age",age)
+cxml("bmi","%.3f"%(float(bmi)))
+print("</user>")
