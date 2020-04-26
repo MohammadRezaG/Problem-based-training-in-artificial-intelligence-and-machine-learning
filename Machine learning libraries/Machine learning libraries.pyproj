@@ -2,24 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>456d3164-5183-49e8-be05-6d128cc6a64e</ProjectGuid>
+    <ProjectGuid>742b85d0-db12-43f2-8379-bfd1c96ba12b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tired_mathematicians.py</StartupFile>
+    <StartupFile>Kind master.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>An overview of Python concepts</Name>
-    <RootNamespace>An overview of Python concepts</RootNamespace>
-    <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>
-    </CommandLineArguments>
-    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <InterpreterPath>
-    </InterpreterPath>
-    <TestFramework>none</TestFramework>
-    <UnitTestPattern>test*.py</UnitTestPattern>
-    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <Name>Machine learning libraries</Name>
+    <RootNamespace>Machine learning libraries</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,31 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BMI2.py">
+    <Compile Include="Kind master.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="csv.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Different orders of the king.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Group registration.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Simple compression.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Tired_mathematicians.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Two-way encryption.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="XML.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <AdditionalFiles Include="mytest.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
