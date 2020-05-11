@@ -1,9 +1,0 @@
-a := 3.144
-a
-a := add(a,4)
-a
-b:=sub(a,3)
-b
-b :=gcd(b,3)
-b
-end

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "An overview of Python concepts", "An overview of Python concepts\An overview of Python concepts.pyproj", "{456D3164-5183-49E8-BE05-6D128CC6A64E}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "An_overview_of_Python_concepts", "An overview of Python concepts\An_overview_of_Python_concepts.pyproj", "{456D3164-5183-49E8-BE05-6D128CC6A64E}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Machine learning libraries", "Machine learning libraries\Machine learning libraries.pyproj", "{742B85D0-DB12-43F2-8379-BFD1C96BA12B}"
 EndProject
